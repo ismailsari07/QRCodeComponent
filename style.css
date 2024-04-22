@@ -1,0 +1,41 @@
+body {
+  background-color: hsl(220, 15%, 55%);
+  font-family: "Outfit", sans-serif;
+}
+
+#card {
+  position: relative;
+  display: flexbox;
+  background-color: white;
+  width: 320px;
+  height: 500px;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#cardheader {
+  position: absolute;
+  left: 15px;
+  top: 15px;
+}
+
+#cardfooter {
+  position: absolute;
+  padding: 20px;
+  bottom: 15px;
+}
+
+#cardfooter h2 {
+  text-align: center;
+}
+
+#cardfooter div {
+  font-size: 15px;
+  color: hsl(212, 10%, 72%);
+  text-align: center;
+}
+
+img {
+  border-radius: 15px;
+}
